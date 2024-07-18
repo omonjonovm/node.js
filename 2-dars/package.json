@@ -1,0 +1,23 @@
+{
+  "name": "2-dars",
+  "version": "1.0.0",
+  "description": "rest-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "rest"
+  ],
+  "author": "omonjonovm",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0"
+  }
+}
