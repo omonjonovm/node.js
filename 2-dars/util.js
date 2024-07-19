@@ -16,3 +16,4 @@ function getBodyData(req) {
   })
 }
 module.exports = getBodyData
+
