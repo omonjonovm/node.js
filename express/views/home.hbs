@@ -1,0 +1,12 @@
+  <h1>{{hello}}</h1>
+  <p>{{text}}</p>
+  
+  <ul>
+    {{#if users}}
+    {{#each users}}
+     <li>{{name}}</li>
+     {{/each}}
+     {{else}}
+     <h3 style="font-family: monospace">Hech qanday user topilmadi</h3>
+    {{/if}}
+  </ul>
